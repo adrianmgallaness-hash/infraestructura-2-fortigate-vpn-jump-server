@@ -24,6 +24,10 @@ Las evidencias proceden de capturas aportadas durante la práctica. Se preservan
 | Running-configs | Exportar desde los equipos | Respaldo real FortiGate recibido y saneado; Cisco pendiente; referencias identificadas como reconstrucción |
 | Scripts utilizados | Secuencias Windows/Ubuntu y Caja | Incluidos, sin credenciales; organizados desde el historial |
 
+## Topología real del proyecto
+
+![Captura de la topología GNS3 aportada por el estudiante](../evidencias/13-topologia-gns3.png)
+
 ## Galería
 
 ### Políticas FortiGate: servicios, NAT y orden

@@ -4,6 +4,14 @@
 
 Concentrar la entrada remota en Jump y evitar la exposición directa del Web Server a los clientes. FortiGate controla los servicios entre las redes; Windows aplica los permisos de publicación y el bloqueo SSH por usuario. El tráfico AD/DNS entre Jump y DC permanece en su LAN; la restricción de tres servicios se refiere al tráfico **Jump → Web**, no a toda dependencia del Jump.
 
+## Captura del proyecto GNS3
+
+![Topología real del laboratorio](../evidencias/13-topologia-gns3.png)
+
+Los nombres de nodos terminados en `-1` son etiquetas de GNS3; los nombres de sistema de los servidores siguen siendo JUMP-2139, DC-2139 y WEB-2139.
+
+## Diagrama lógico con direccionamiento
+
 ![Topología](../diagramas/topologia.svg)
 
 ## Plan VLSM

@@ -14,7 +14,11 @@ Implementar y demostrar acceso remoto controlado a un sistema de Caja. Dos clien
 
 El control combina segmentación de red, políticas del FortiGate, grupos de Active Directory, publicación de RemoteApp y una regla explícita de Windows Firewall que bloquea SSH para el usuario sin privilegios.
 
-![Arquitectura del laboratorio](diagramas/topologia.svg)
+## Topología implementada en GNS3
+
+![Topología real de Infraestructura 2 en GNS3](evidencias/13-topologia-gns3.png)
+
+[Ver diagrama lógico con direccionamiento](diagramas/topologia.svg)
 
 ## Componentes y direccionamiento
 

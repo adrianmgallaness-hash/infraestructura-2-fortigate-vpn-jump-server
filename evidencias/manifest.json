@@ -82,5 +82,12 @@
     "descripcion": "Tráfico VPN permitido y denegaciones Jump a Web",
     "sha256": "ed40ea6e9ea46104bdd314fe6f03924ac12a3b271798ecedd8ebfa2aea475bf8",
     "tratamiento": "Copia sin alteración de píxeles"
+  },
+  {
+    "archivo": "13-topologia-gns3.png",
+    "origen": "Screenshot 2026-10-10 234809.png",
+    "descripcion": "Topología real del proyecto GNS3: nube, ISP, FortiGate, dos switches, dos clientes y tres servidores",
+    "sha256": "b0ea07ca9dedbac556efd5fcde523588e5fea6b1a8d8397e59a15ab7546d9c4f",
+    "tratamiento": "Copia sin alteración de píxeles"
   }
 ]
