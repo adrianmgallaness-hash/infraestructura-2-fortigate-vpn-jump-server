@@ -20,7 +20,7 @@ Las evidencias proceden de capturas aportadas durante la práctica. Se preservan
 | Política explícita que restringe SSH | Windows Firewall por SID del usuario normal, TCP/22 | 09 y script del Jump |
 | Soporte con Web, PuTTY y RDP | RDS-Admin → tres aplicaciones | 06; SSH y RDP ejecutados en 07–08 |
 | Matrícula en direccionamiento | 2139 → 10.21.39.x | Tabla de direccionamiento |
-| Video individual ≤10 minutos, rostro, voz, fecha/hora | Guion preparado | Enlace y revisión del video pendientes |
+| Video individual ≤10 minutos, rostro, voz, fecha/hora | Guion preparado | [Enlace incorporado](https://youtu.be/gYIoC38Pk3w); revisión de duración, rostro, voz y fecha/hora pendiente |
 | Running-configs | Exportar desde los equipos | Respaldo real FortiGate recibido y saneado; Cisco pendiente; referencias identificadas como reconstrucción |
 | Scripts utilizados | Secuencias Windows/Ubuntu y Caja | Incluidos, sin credenciales; organizados desde el historial |
 
