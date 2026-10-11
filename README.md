@@ -1,8 +1,10 @@
-# Infraestructura 2 · VPN y Jump Server
+# Práctica 3 · Infraestructura 2 · VPN y Jump Server
 
 ## Video demostrativo
 
-**Enlace pendiente de incorporar:** video individual de esta infraestructura, en YouTube o OneDrive institucional, de **máximo 10 minutos**, con fecha y hora visibles, rostro del estudiante y narración con su voz. El enlace se colocará en esta primera sección cuando esté disponible.
+[▶ Ver video demostrativo en YouTube](https://youtu.be/gYIoC38Pk3w)
+
+[![Video demostrativo · Práctica 3 · Infraestructura 2](https://img.youtube.com/vi/gYIoC38Pk3w/hqdefault.jpg)](https://youtu.be/gYIoC38Pk3w)
 
 **Autor:** Adrian Magallanes Feliz · **Asignación individual** · **Base de direccionamiento:** últimos cuatro dígitos de matrícula **2139**.
 
@@ -85,7 +87,7 @@ Todas las capturas incluidas son archivos aportados durante la práctica; el [í
 
 Se documentan pruebas satisfactorias de VPN, RemoteApp, Caja, SSH/RDP y restricciones. Posteriormente se reportó una incidencia de acceso al Web Client; su recuperación no está confirmada en las evidencias recibidas. Ver [operación](docs/04-clientes-vpn.md).
 
-Antes de entregar faltan: **enlace del video**, **running-configs originales de los equipos Cisco**, y **confirmación de matrícula completa y número P#** para nombrar el TXT. No debe confundirse “Infraestructura 2” con el número de práctica sin verificar el enunciado.
+Video incorporado para **Práctica 3 · Infraestructura 2**. Antes de entregar faltan los **running-configs originales de los equipos Cisco** y la **confirmación de matrícula completa** para nombrar el TXT con el sufijo **P3**.
 
 ## Entorno de laboratorio
 
