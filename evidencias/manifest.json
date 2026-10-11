@@ -1,0 +1,86 @@
+[
+  {
+    "archivo": "01-politicas-fortigate.png",
+    "origen": "image(20261011-003542).png",
+    "descripcion": "Políticas FortiGate: servicios, NAT y orden",
+    "sha256": "06451a2cf0ed4be53ffed9a3c0e4f8da49af51c00ee396365eef9e6114bb8a9c",
+    "tratamiento": "Copia sin alteración de píxeles"
+  },
+  {
+    "archivo": "02-vpn-usuario.png",
+    "origen": "image(20261010-233513).png",
+    "descripcion": "VPN usuario establecida; IP virtual .200 y selector Jump /32",
+    "sha256": "54e94028aaa9b39f25daa109d437ae519ee59c8ef23731fd1150929db0d74274",
+    "tratamiento": "Copia sin alteración de píxeles"
+  },
+  {
+    "archivo": "03-vpn-soporte.png",
+    "origen": "image(20261011-001315).png",
+    "descripcion": "VPN soporte establecida; IP virtual .201 y selector Jump /32",
+    "sha256": "2fad7dc578fdd19043cfa45d0b8a36ae91d6c25bdd846bdce4d0ed02509ec4f0",
+    "tratamiento": "Copia sin alteración de píxeles"
+  },
+  {
+    "archivo": "04-remoteapp-usuario.png",
+    "origen": "image(20261010-234053).png",
+    "descripcion": "Catálogo de usuario normal: solamente Caja",
+    "sha256": "96ae2019cbfe41a94ed5adb485fd74bb0f8829e3cc568479699d329afd36f590",
+    "tratamiento": "Copia sin alteración de píxeles"
+  },
+  {
+    "archivo": "05-caja-venta.png",
+    "origen": "image(20261010-234630).png",
+    "descripcion": "Venta de RD$150 y cambio de RD$50",
+    "sha256": "8658549edc1b4901995163640d6ac58655657a0c21fef0ed45f1ff6068202926",
+    "tratamiento": "Copia sin alteración de píxeles"
+  },
+  {
+    "archivo": "06-remoteapp-soporte.png",
+    "origen": "image(20261011-001843).png",
+    "descripcion": "Catálogo de soporte: PuTTY, RDP y Caja",
+    "sha256": "815ce470fa7eb75bb59602aacb8f7689d1ca5ce3e0f41f2d206a58ace633afb4",
+    "tratamiento": "Copia sin alteración de píxeles"
+  },
+  {
+    "archivo": "07-ssh-soporte.png",
+    "origen": "image(20261011-002139).png",
+    "descripcion": "PuTTY dentro de Web Client: hostname WEB-2139",
+    "sha256": "755c41c06faa4889645d41a4ce6fd4f6d7d69f9351eb5e9a1795733bd3ff3427",
+    "tratamiento": "Copia sin alteración de píxeles"
+  },
+  {
+    "archivo": "08-rdp-soporte.png",
+    "origen": "image(20261011-002712).png",
+    "descripcion": "Escritorio remoto a .138: hostname WEB-2139",
+    "sha256": "23c88ee287301e974afc75c9818dfc3f7b9611d26c28dd4b80ce78f31f9248d0",
+    "tratamiento": "Copia sin alteración de píxeles"
+  },
+  {
+    "archivo": "09-ssh-bloqueado-usuario.png",
+    "origen": "image(20261011-003307).png",
+    "descripcion": "Identidad usuario2139 en Jump: TCP/22 falla; TCP/443 funciona",
+    "sha256": "f738769b768cd58b5cea71f82dc1df29d1f7a86a3c01fa6e255f633977fc1b36",
+    "tratamiento": "Copia sin alteración de píxeles"
+  },
+  {
+    "archivo": "10-acceso-directo-denegado.png",
+    "origen": "image(20261010-234727).png",
+    "descripcion": "Cliente no accede directamente a Web TCP/443 ni DC TCP/53",
+    "sha256": "c144895029447f2158d507c163a48cb0dc1f479753e472c0c78a97ca9dd1dddf",
+    "tratamiento": "Copia sin alteración de píxeles"
+  },
+  {
+    "archivo": "11-puerto-445-bloqueado.png",
+    "origen": "image(20261011-004246).png",
+    "descripcion": "Jump no establece TCP/445 con Web",
+    "sha256": "32d8b7e615530ada2692104c42af83064f01657caa7ee374552c3f7a92a6343a",
+    "tratamiento": "Copia sin alteración de píxeles"
+  },
+  {
+    "archivo": "12-registros-fortigate.png",
+    "origen": "image(20261011-004324).png",
+    "descripcion": "Tráfico VPN permitido y denegaciones Jump a Web",
+    "sha256": "ed40ea6e9ea46104bdd314fe6f03924ac12a3b271798ecedd8ebfa2aea475bf8",
+    "tratamiento": "Copia sin alteración de píxeles"
+  }
+]

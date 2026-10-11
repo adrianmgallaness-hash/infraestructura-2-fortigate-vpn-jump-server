@@ -1,0 +1,14 @@
+# Secretos, respaldos privados e imagenes de VM
+*.pfx
+*.p12
+*.key
+ipsec.secrets
+*.iso
+*.vmdk
+*.qcow2
+*.vdi
+*.vhd
+*.vhdx
+.env
+privado/
+__pycache__/

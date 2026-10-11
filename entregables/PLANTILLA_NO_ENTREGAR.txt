@@ -1,0 +1,9 @@
+BORRADOR: completar campos y renombrar antes de entregar.
+Formato: AdrianMagallanesFeliz_<MATRICULA_COMPLETA>_<P#>.txt
+
+Nombre: Adrian Magallanes Feliz
+Matricula: PENDIENTE_CONFIRMAR
+Practica: PENDIENTE_CONFIRMAR_P_NUMERO
+Infraestructura: 2
+Repositorio: https://github.com/adrianmgallaness-hash/infraestructura-2-fortigate-vpn-jump-server
+Video: PENDIENTE_ENLACE_YOUTUBE_O_ONEDRIVE_INSTITUCIONAL

@@ -1,0 +1,10 @@
+flowchart TD
+  CLOUD["Nube VMware NAT 192.168.85.0/24"] --> ISP["ISP: DHCP usuarios y WAN /30"]
+  ISP --> SWLAN["SW-LAN · VLAN 10 · 10.21.39.0/25"]
+  ISP --> FG["FortiGate · 203.0.113.2/30"]
+  SWLAN --> U1["Ubuntu 1 · usuario2139"]
+  SWLAN --> U2["Ubuntu 2 · soporte2139"]
+  FG --> SWJ["SW-JUMP · 10.21.39.128/29"]
+  FG --> WEB["WEB-2139 · 10.21.39.138/29"]
+  SWJ --> JUMP["JUMP-2139 · 10.21.39.130/29"]
+  SWJ --> DC["DC-2139 · 10.21.39.131/29"]

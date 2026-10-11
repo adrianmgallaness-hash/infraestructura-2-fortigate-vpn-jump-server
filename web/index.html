@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Caja 2139</title>
+<style>
+body{font-family:Arial;background:#eef2f7;margin:30px;color:#18283b}
+main{max-width:850px;margin:auto;background:white;padding:30px;border-radius:15px}
+h1{color:#164e87}button{background:#164e87;color:white;border:0;padding:12px;border-radius:6px;cursor:pointer}
+input,select{padding:10px;margin:5px;width:160px}
+table{width:100%;border-collapse:collapse;margin:20px 0}
+th,td{text-align:left;padding:12px;border-bottom:1px solid #ddd}
+#mensaje{font-weight:bold;color:#176437}
+</style>
+</head>
+<body>
+<main>
+<h1>Sistema de Caja · 2139</h1>
+<p>Servidor WEB-2139 · Práctica Infraestructura 2</p>
+<select id="producto">
+<option value="0">Arroz - RD$75.00</option>
+<option value="1">Leche - RD$85.00</option>
+<option value="2">Pan - RD$50.00</option>
+</select>
+<input id="cantidad" type="number" min="1" step="1" value="1">
+<button onclick="agregar()">Agregar</button>
+<table>
+<thead><tr><th>Producto</th><th>Cantidad</th><th>Subtotal</th><th></th></tr></thead>
+<tbody id="carrito"></tbody>
+</table>
+<h2>Total: <span id="total">RD$0.00</span></h2>
+<label>Efectivo recibido:</label>
+<input id="efectivo" type="number" min="0" step="0.01">
+<button onclick="cobrar()">Cobrar venta</button>
+<p id="mensaje"></p>
+<h3>Últimas ventas de este navegador</h3>
+<div id="historial"></div>
+</main>
+<script>
+const catalogo=[{nombre:'Arroz',precio:7500},{nombre:'Leche',precio:8500},{nombre:'Pan',precio:5000}];
+let cesta=[];
+const elemento=id=>document.getElementById(id);
+const dinero=centavos=>'RD$'+(centavos/100).toFixed(2);
+const suma=()=>cesta.reduce((t,p)=>t+p.precio*p.cantidad,0);
+function agregar(){
+ const p=catalogo[Number(elemento('producto').value)];
+ const q=Number(elemento('cantidad').value);
+ if(!Number.isSafeInteger(q)||q<1||q>1000){alert('Cantidad válida: de 1 a 1000.');return;}
+ cesta.push({...p,cantidad:q});mostrar();
+}
+function quitar(i){cesta.splice(i,1);mostrar();}
+function mostrar(){
+ elemento('carrito').innerHTML=cesta.map((p,i)=>`<tr><td>${p.nombre}</td><td>${p.cantidad}</td><td>${dinero(p.precio*p.cantidad)}</td><td><button onclick="quitar(${i})">Quitar</button></td></tr>`).join('');
+ elemento('total').textContent=dinero(suma());
+}
+function leerVentas(){return JSON.parse(localStorage.getItem('ventas2139')||'[]');}
+function historial(){
+ const ventas=leerVentas();
+ elemento('historial').replaceChildren();
+ ventas.slice(-5).reverse().forEach(v=>{
+ const linea=document.createElement('p');
+ linea.textContent=v.fecha+' - '+dinero(v.total);
+ elemento('historial').appendChild(linea);
+ });
+}
+function cobrar(){
+ const total=suma();
+ const recibido=Math.round(Number(elemento('efectivo').value)*100);
+ if(!total){alert('Agrega productos.');return;}
+ if(!Number.isSafeInteger(recibido)||recibido<total){alert('Efectivo insuficiente o inválido.');return;}
+ try{
+ const ventas=leerVentas();
+ ventas.push({fecha:new Date().toLocaleString(),productos:cesta,total,recibido,cambio:recibido-total});
+ localStorage.setItem('ventas2139',JSON.stringify(ventas));
+ }catch(e){alert('No se pudo guardar la venta en el navegador.');return;}
+ elemento('mensaje').textContent='Venta registrada. Cambio: '+dinero(recibido-total);
+ cesta=[];elemento('efectivo').value='';mostrar();historial();
+}
+historial();
+</script>
+</body>
+</html>
