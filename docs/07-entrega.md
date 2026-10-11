@@ -2,9 +2,9 @@
 
 ## Pendientes que requieren datos reales del laboratorio
 
-- [ ] Enlace del video de esta infraestructura (YouTube o OneDrive institucional), colocado al principio del README.
+- [x] [Video de Práctica 3 · Infraestructura 2](https://youtu.be/gYIoC38Pk3w), colocado al principio del README.
 - [ ] Verificar video ≤10 minutos, con rostro, voz, fecha y hora.
-- [ ] Confirmar matrícula completa y número de práctica P#.
+- [ ] Confirmar matrícula completa para el TXT; número de práctica confirmado: P3.
 - [ ] Incorporar ISP-running-config.txt, SW-LAN-running-config.txt y SW-JUMP-running-config.txt exportados de equipos reales.
 - [x] Incorporar respaldo FortiGate recibido y saneado para publicación: [archivo](../configs/running-configs/FortiGate-sanitizado.conf).
 - [ ] Confirmar recuperación de la incidencia posterior de acceso al Web Client.
@@ -56,17 +56,17 @@ Usar exactamente el patrón del docente:
 <Nombre>_<Matrícula>_<P#>.txt
 ```
 
-Para este estudiante, la parte del nombre puede ser `AdrianMagallanesFeliz`, sin espacios. Confirmar los otros dos campos: conocer el sufijo 2139 no basta para asumir toda la matrícula, e Infraestructura 2 no determina automáticamente P2.
+Para este estudiante, la parte del nombre puede ser `AdrianMagallanesFeliz`, sin espacios. El número de práctica confirmado es P3. Falta confirmar la matrícula completa; conocer el sufijo 2139 no basta para asumirla.
 
 Contenido:
 
 ```text
 Nombre: Adrian Magallanes Feliz
 Matricula: COMPLETAR_MATRICULA
-Practica: COMPLETAR_P_NUMERO
+Practica: P3
 Infraestructura: 2
 Repositorio: https://github.com/adrianmgallaness-hash/infraestructura-2-fortigate-vpn-jump-server
-Video: COMPLETAR_ENLACE_VIDEO
+Video: https://youtu.be/gYIoC38Pk3w
 ```
 
 La plantilla `entregables/PLANTILLA_NO_ENTREGAR.txt` no es el entregable final. Cambiar contenido y nombre antes de subir a la plataforma. Mantener repositorio y video propios de Infraestructura 2.
