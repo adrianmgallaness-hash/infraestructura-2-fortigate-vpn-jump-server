@@ -78,14 +78,14 @@ Todas las capturas incluidas son archivos aportados durante la práctica; el [í
 - [Sistema de Caja HTML/JavaScript](web/index.html): versión reconstruida a partir del código pegado durante la práctica; ventas en `localStorage` del navegador remoto.
 - [Scripts y secuencias de comandos](scripts/README.md): Windows, Ubuntu y verificaciones, sin contraseñas.
 - [Configuraciones Cisco de referencia](configs/referencia/README.md): reconstrucción documental de la configuración conocida.
-- [Running-configs originales](configs/running-configs/README.md): **pendientes de exportación** de los equipos. Las referencias no sustituyen estos archivos.
+- [Configuraciones exportadas](configs/running-configs/README.md): **respaldo real de FortiGate recibido y saneado**; running-configs de los tres equipos Cisco pendientes. Las referencias no sustituyen estos archivos.
 - [Plantilla del TXT de entrega](entregables/PLANTILLA_NO_ENTREGAR.txt).
 
 ## Estado de cierre
 
 Se documentan pruebas satisfactorias de VPN, RemoteApp, Caja, SSH/RDP y restricciones. Posteriormente se reportó una incidencia de acceso al Web Client; su recuperación no está confirmada en las evidencias recibidas. Ver [operación](docs/04-clientes-vpn.md).
 
-Antes de entregar faltan: **enlace del video**, **exports reales de configuración**, y **confirmación de matrícula completa y número P#** para nombrar el TXT. No debe confundirse “Infraestructura 2” con el número de práctica sin verificar el enunciado.
+Antes de entregar faltan: **enlace del video**, **running-configs originales de los equipos Cisco**, y **confirmación de matrícula completa y número P#** para nombrar el TXT. No debe confundirse “Infraestructura 2” con el número de práctica sin verificar el enunciado.
 
 ## Entorno de laboratorio
 

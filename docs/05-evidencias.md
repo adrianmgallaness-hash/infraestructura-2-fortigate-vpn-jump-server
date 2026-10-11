@@ -21,7 +21,7 @@ Las evidencias proceden de capturas aportadas durante la práctica. Se preservan
 | Soporte con Web, PuTTY y RDP | RDS-Admin → tres aplicaciones | 06; SSH y RDP ejecutados en 07–08 |
 | Matrícula en direccionamiento | 2139 → 10.21.39.x | Tabla de direccionamiento |
 | Video individual ≤10 minutos, rostro, voz, fecha/hora | Guion preparado | Enlace y revisión del video pendientes |
-| Running-configs | Exportar desde los equipos | Pendientes; referencias identificadas como reconstrucción |
+| Running-configs | Exportar desde los equipos | Respaldo real FortiGate recibido y saneado; Cisco pendiente; referencias identificadas como reconstrucción |
 | Scripts utilizados | Secuencias Windows/Ubuntu y Caja | Incluidos, sin credenciales; organizados desde el historial |
 
 ## Galería

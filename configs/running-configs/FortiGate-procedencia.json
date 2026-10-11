@@ -1,0 +1,19 @@
+{
+  "archivo_origen": "Fortigate-1_7-0_0444_202610101945.conf",
+  "sha256_original": "b4b9577accf8a5695097d09596be4a9931c0a3f6ed656c17d56cdde3b49441c5",
+  "archivo_publicado": "FortiGate-sanitizado.conf",
+  "sha256_publicado": "866841db4d2b6f6018bbf5e889d58e90448b36671e7d37e62e643e4e5e2a64ca",
+  "campos_redactados": {
+    "password": 22,
+    "private-key": 21,
+    "passwd": 1,
+    "psksecret": 1,
+    "hostkey-rsa2048": 1,
+    "hostkey-dsa1024": 1,
+    "hostkey-ecdsa256": 1,
+    "hostkey-ecdsa384": 1,
+    "hostkey-ecdsa521": 1,
+    "hostkey-ed25519": 1
+  },
+  "nota": "Exportacion real aportada por el estudiante. Valores sensibles sustituidos por [REDACTADO], incluidas claves privadas y credenciales cifradas ENC. Los certificados publicos se conservan. No importar como respaldo de recuperacion: requiere restituir secretos localmente."
+}

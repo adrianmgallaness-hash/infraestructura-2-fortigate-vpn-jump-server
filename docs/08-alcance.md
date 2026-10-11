@@ -4,7 +4,7 @@
 
 La documentación y los scripts se organizan a partir de los comandos, resultados y capturas compartidos en la sesión de construcción. Las capturas son originales; las referencias Cisco y las secuencias PowerShell son reconstrucciones documentales, no exports completos ni una transcripción byte a byte. No se afirma haber ejecutado desde este repositorio una instalación nueva.
 
-La comprobación del código del repositorio es estática y no reemplaza pruebas sobre las VMs. Los exports reales deben incorporarse antes de cerrar el requisito de running-configs. Los diagramas describen el diseño y no son capturas del proyecto GNS3.
+La comprobación del código del repositorio es estática y no reemplaza pruebas sobre las VMs. Se incorporó el respaldo real del FortiGate con secretos saneados; faltan los exports reales de Cisco para cerrar el requisito de running-configs. Los diagramas describen el diseño y no son capturas del proyecto GNS3.
 
 ## Límites del laboratorio
 

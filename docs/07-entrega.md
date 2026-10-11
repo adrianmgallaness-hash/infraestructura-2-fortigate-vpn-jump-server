@@ -6,7 +6,7 @@
 - [ ] Verificar video ≤10 minutos, con rostro, voz, fecha y hora.
 - [ ] Confirmar matrícula completa y número de práctica P#.
 - [ ] Incorporar ISP-running-config.txt, SW-LAN-running-config.txt y SW-JUMP-running-config.txt exportados de equipos reales.
-- [ ] Incorporar respaldo FortiGate obtenido por GUI y saneado para publicación.
+- [x] Incorporar respaldo FortiGate recibido y saneado para publicación: [archivo](../configs/running-configs/FortiGate-sanitizado.conf).
 - [ ] Confirmar recuperación de la incidencia posterior de acceso al Web Client.
 - [ ] Agregar evidencia final de VLAN y concesiones DHCP a los dos clientes.
 
