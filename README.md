@@ -84,14 +84,24 @@ Todas las capturas incluidas son archivos aportados durante la práctica; el [í
 - [Sistema de Caja HTML/JavaScript](web/index.html): versión reconstruida a partir del código pegado durante la práctica; ventas en `localStorage` del navegador remoto.
 - [Scripts y secuencias de comandos](scripts/README.md): Windows, Ubuntu y verificaciones, sin contraseñas.
 - [Configuraciones Cisco de referencia](configs/referencia/README.md): reconstrucción documental de la configuración conocida.
-- [Configuraciones exportadas](configs/running-configs/README.md): **respaldo real de FortiGate recibido y saneado**; running-configs de los tres equipos Cisco pendientes. Las referencias no sustituyen estos archivos.
-- [Plantilla del TXT de entrega](entregables/PLANTILLA_NO_ENTREGAR.txt).
+- [Respaldo original de FortiGate, saneado para publicación](configs/running-configs/FortiGate-sanitizado.conf).
+- [Inventario de configuraciones](configs/running-configs/README.md): distingue los respaldos recibidos de las referencias reconstruidas.
+- [Control de entrega y formato del TXT](docs/07-entrega.md).
 
-## Estado de cierre
+## Resultados documentados
 
-Se documentan pruebas satisfactorias de VPN, RemoteApp, Caja, SSH/RDP y restricciones. Posteriormente se reportó una incidencia de acceso al Web Client; su recuperación no está confirmada en las evidencias recibidas. Ver [operación](docs/04-clientes-vpn.md).
+Las capturas muestran el Web Client abierto desde Ubuntu, el catálogo de aplicaciones según el usuario y aplicaciones ejecutadas en Jump:
 
-Video incorporado para **Práctica 3 · Infraestructura 2**. Antes de entregar faltan los **running-configs originales de los equipos Cisco** y la **confirmación de matrícula completa** para nombrar el TXT con el sufijo **P3**.
+| Prueba | Evidencia |
+|---|---|
+| Usuario normal: solo Caja publicada | [Catálogo RemoteApp](evidencias/04-remoteapp-usuario.png) |
+| Caja: venta y cálculo de cambio | [Venta registrada](evidencias/05-caja-venta.png) |
+| Soporte: Caja, PuTTY y RDP publicados | [Catálogo de soporte](evidencias/06-remoteapp-soporte.png) |
+| SSH hacia WEB-2139 desde PuTTY RemoteApp | [Sesión SSH](evidencias/07-ssh-soporte.png) |
+| RDP hacia WEB-2139 mediante Web Client | [Sesión RDP](evidencias/08-rdp-soporte.png) |
+| Usuario normal: SSH bloqueado y HTTPS permitido | [Prueba por identidad](evidencias/09-ssh-bloqueado-usuario.png) |
+
+Estas pruebas corresponden al momento de las capturas. El [registro de operación](docs/04-clientes-vpn.md#incidencia-posterior-unable-to-connect) conserva una incidencia posterior de conexión cuya recuperación requiere evidencia adicional; no se presenta como resuelta. Los archivos y comprobaciones que aún faltan se detallan en el [control de entrega](docs/07-entrega.md).
 
 ## Entorno de laboratorio
 
